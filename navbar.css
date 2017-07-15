@@ -1,0 +1,31 @@
+/*Propeller Navbar*/
+.pmd-navbar.navbar > .container .navbar-brand, .pmd-navbar.navbar > .container-fluid .navbar-brand{ margin-left: 0;}
+.pmd-navbar .navbar-brand{ float: left; padding: 8px 16px 8px 8px; font-size:24px; line-height: 48px; height: inherit;}
+@media (max-width: 767px) {
+.pmd-navbar .navbar-brand{ line-height:40px;}
+}
+@media (min-width: 768px) {
+.pmd-navbar .navbar { border-radius: 0;}
+}
+@media (min-width: 768px) {
+.pmd-navbar.navbar > .container .navbar-brand, .pmd-navbar.navbar > .container-fluid .navbar-brand { margin-left:0px;}
+}
+.pmd-navbar .navbar-nav > li > a { line-height: 24px;}
+@media (min-width: 768px) {
+.pmd-navbar .navbar-nav > li > a { padding-top:20px; padding-bottom:20px;}
+}
+.pmd-navbar .navbar-nav > li > a{ text-transform:uppercase;}
+.pmd-navbar .navbar-toggle{margin-top: 16px; float:left;}
+.pmd-navbar.navbar .btn.pmd-btn-fab{margin: 12px 0; padding:0;}
+@media (max-width: 767px) {
+.pmd-navbar.navbar .btn.pmd-btn-fab{margin: 8px 0;}
+}
+.pmd-navbar .pmd-navbar-right-icon{ margin-left:16px;}
+.pmd-navbar .pmd-navbar-right-icon a{ display:inline-block;}
+.pmd-navbar .navbar-toggle{border-radius: 50%; border:none; height:40px; width:40px; padding:10px; margin-top: 12px; margin-right:8px;}
+.pmd-navbar .navbar-toggle .icon-bar{ width:20px;}
+
+.pmd-sidebar-overlay, .pmd-sidebar-left-overlay, .right-pmd-sidebar-overlay { visibility: hidden; position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0; background: #000; z-index:998; transition: visibility 0 linear 0.4s, opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1); -ms-transform: translateZ(0); transform: translateZ(0);}
+.pmd-sidebar-overlay.pmd-sidebar-overlay-active, .pmd-sidebar-left-overlay.active, .right-pmd-sidebar-overlay.active { opacity: 0.5; visibility: visible; transition-delay: 0;}
+
+.navbar-form .btn{padding:9px 14px}
